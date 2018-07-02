@@ -1,0 +1,28 @@
+{
+  "name": "bc-33-oop",
+  "version": "1.0.0",
+  "description": "A real-world scenario/problem modelled using Object Oriented Programming and its concepts such as inheritance, encapsulation, and polymorphism.",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "mocha --compilers js:babel-core/register test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentineezeh/BC-33-OOP.git"
+  },
+  "author": "Valentine Ezeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentineezeh/BC-33-OOP/issues"
+  },
+  "homepage": "https://github.com/valentineezeh/BC-33-OOP#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
